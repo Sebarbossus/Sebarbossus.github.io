@@ -31,7 +31,9 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient(to right bottom,#7ed56fa1, #28b485a6), url("img/hero.jpg");
+    background-image: linear-gradient(to right bottom, #f9c667 32%,#f79621 81%), url("img/hero.jpg");
+    background-image: -moz-linear-gradient(right, #f9c667 32%, #f79621 81%), url("img/hero.jpg"); /* FF3.6-15 */
+    background-image: -webkit-linear-gradient(right, #f9c667 32%,#f79621 81%), url("img/hero.jpg");
     background-size: cover;
     background-position: center;
     /* If you set the parent to relative, the child becomes relative to the parent */
